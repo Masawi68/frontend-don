@@ -1,0 +1,189 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+.footer {
+  width: 100%;
+  background: linear-gradient(to right, #a1fa77, #4761f1);
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+.footer > * {
+  width: 100%;
+}
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+}
+
+.navbar-dark {
+  background-color: #000000;
+}
+
+.carousel {
+  background: #000000;
+  height: auto;
+  /* .carousel-item {
+     height: $carousel-item-height; 
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+    } 
+  } */
+}
+
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-left: 6%;
+  margin-top: 2%;
+  font-size: larger;
+}
+@media (max-width: 768px) {
+  .carousel-caption {
+    font-size: medium; /* Adjust the font size for smaller screens */
+    margin-left: 0; /* Adjust margin for smaller screens */
+    margin-top: 0; /* Adjust margin for smaller screens */
+  }
+}
+@media (max-width: 450px) {
+  .carousel-caption {
+    font-size: small; /* Adjust the font size for smaller screens */
+    margin-left: 0; /* Adjust margin for smaller screens */
+    margin-top: 0; /* Adjust margin for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  /* Styles applied when the screen width is 576 pixels or less */
+  .font-family-md {
+    font-size: 2rem;
+    /* Adjust the size for small screens */
+  }
+}
+@media (min-width: 768px) {
+  .container-fluid {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .container-fluid {
+    display: block;
+  }
+}
+
+#paypal-button-container {
+  width: 100%;
+  /* Take up the full width of the container */
+  max-width: 320px;
+  /* Set a maximum width if needed */
+  margin: 0 auto;
+  /* Center the container */
+}
+
+@media (max-width: 767px) {
+  #paypal-button-container {
+    max-width: 80%;
+    /* Adjust the maximum width for smaller screens */
+  }
+}
+a:hover {
+  text-decoration: none;
+  /* You can also specify a different style when hovering, like changing the color */
+  color: rgb(245, 240, 240);
+}
+
+.pill-link {
+  display: inline-block;
+  padding: 0.4em 1em;
+  border-radius: 10px;
+  color: rgb(248, 245, 245);
+  text-decoration: none;
+  background-color: rgba(241, 9, 9, 0.685);
+  font-size: 20px;
+}
+
+.pill-link:hover {
+  background-color: rgba(126, 3, 3, 0.4);
+}
+
+.card-body-no-border {
+  border-bottom: none;
+}
+
+.accordion {
+  border-bottom: none !important;
+}
+
+/* Default styles */
+.navbar-brand img {
+  height: 45px;
+  width: 45px;
+}
+
+.font-family-md {
+  font-family: "YourFontFamily", sans-serif;
+  /* Replace 'YourFontFamily' with the actual font family you want to use */
+  font-weight: bold;
+  font-size: 2rem;
+  /* Default font size */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .navbar-brand img {
+    height: 30px;
+    /* Adjust the height as needed for smaller screens */
+    width: 30px;
+    /* Adjust the width as needed for smaller screens */
+  }
+  .font-family-md {
+    font-size: 1.5rem;
+    /* Adjust the font size for smaller screens */
+  }
+}
+.card-body h1 {
+  color: rgb(235, 30, 30);
+  font-size: large;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .card-body h1 {
+    font-size: medium; /* Adjust the size for smaller screens */
+  }
+}
+@media (max-width: 480px) {
+  .card-body h1 {
+    font-size: small; /* Further reduce the size for even smaller screens */
+  }
+}
